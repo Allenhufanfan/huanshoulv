@@ -1,0 +1,67 @@
+{
+    "url": {
+        "homehost": "https://serverplus.huanshoulv.com/aimapp/stock/",
+        "device_id": "343751df82499607d912c87f6c84be6d4cb268b5",
+        "device_token": "aad0ec986ae0ffb41765b87ea1838ba7571c31aa998bc69902b512f1641aa136",
+        "div": "IOSH010904",
+        "hsl_id": "5ab8757bc9e4706ac555eef5",
+        "ts": "%TS%"
+    },
+    "textmod": [
+        {
+            "type": "realHome?",
+            "name": "今日概念主题",
+            "block_type": "0",
+            "stock_code": "1A0001"
+        },
+        {
+            "type": "fundflowBlockStocks?",
+            "name": "块详情",
+            "data_count": "30",
+            "date_type": "1",
+            "inflow_type": "1",
+            "prod_code": "%PROD_CODE%"
+        },
+        {
+            "type": "homeStatic?",
+            "name": "文章动态",
+            "support_video": "true"
+        },
+        {
+            "type": "customFundflow?",
+            "name": "近5分钟主力净买",
+            "stock_code": "1A0001",
+            "end": "1500",
+            "begin": "0925",
+            "page": "1",
+            "page_count": "20",
+            "sort_field_name": "inflow5Min",
+            "sort_type": "-1"
+        },
+        {
+            "type": "callAuction?",
+            "name": "集合竞价看多",
+            "group_name": "集合竞价",
+            "need_blocks": "true",
+            "page": "1",
+            "page_count": "20",
+            "sort_field_name": "px_change_rate",
+            "sort_type": "-1",
+            "type": "4",
+            "vip": "0"
+        },
+        {
+            "type": "bullbearindex?",
+            "name": " 大V大盘涨跌预测"
+        }
+    ],
+    "headers": {
+        "User-Agent": "lBlcE7uTOjJ+QfinjKB0qbeO/IfzxSSs",
+        "Connection": "keep-alive",
+        "Cookie": "_ga=GA1.2.702883259.1503032755",
+        "appversion": "1.9.04",
+        "deviceId": "343751df82499607d912c87f6c84be6d4cb268b5",
+        "mobiledevice": "1",
+        "userid": "5ab8757bc9e4706ac555eef5"
+    }
+}

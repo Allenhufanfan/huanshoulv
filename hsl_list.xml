@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<list>
+ <realhome>
+  <item name="prod_code"      displayname="代码"      displaywidth ="80"/>
+  <item name="prod_name"      displayname="概念主题"  displaywidth ="80"/>
+  <item name="px_change_rate" displayname="涨幅"      displaywidth ="80"/> 
+  <item name="inflow"         displayname="净流入"    displaywidth ="80"/>      
+ </realhome>
+ <fundflowBlockStocks>
+  <item name="stock_code"     displayname="代码"      displaywidth ="80"/>
+  <item name="stock_name"     displayname="概念主题"  displaywidth ="80"/>
+  <item name="px_change_rate" displayname="涨幅"      displaywidth ="80"/> 
+  <item name="inflow"         displayname="净流入"    displaywidth ="80"/>      
+ </fundflowBlockStocks>
+ <customFundflow>
+  <item name="stock_code"     displayname="代码"      displaywidth ="80"/>
+  <item name="stock_name"     displayname="概念主题"  displaywidth ="80"/>
+  <item name="px_change_rate" displayname="涨幅"      displaywidth ="80"/> 
+  <item name="inflow"         displayname="净流入"    displaywidth ="80"/>  
+  <item name="turnover_ratio" displayname="换手率"    displaywidth ="80"/>       
+ </customFundflow>
+ <callAuction>
+  <item name="_id"            displayname="代码"      displaywidth ="80"/>
+  <item name="stock_name"     displayname="概念主题"  displaywidth ="80"/>
+  <item name="px_change_rate" displayname="涨幅"      displaywidth ="80"/> 
+  <item name="inflow"         displayname="净流入"    displaywidth ="80"/>  
+  <item name="reason"         displayname="AI揭秘"    displaywidth ="80"/>       
+ </callAuction>
+ <homeStatic>
+  <item name="title"          displayname="标题"      displaywidth ="80"/>
+  <item name="author"         displayname="作者"      displaywidth ="80"/>
+  <item name="time"           displayname="更新时间"  displaywidth ="80"/> 
+  <item name="link"           displayname="链接"      displaywidth ="80"/>       
+ </homeStatic>
+</list>

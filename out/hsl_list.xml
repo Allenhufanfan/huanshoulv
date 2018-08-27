@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<list>
+ <realhome>
+  <item name="prod_code"      displayname="代码"      tag ="0"  displaywidth ="0"></item>
+  <item name="prod_name"      displayname="概念主题"  tag ="1"  displaywidth ="100"></item>
+  <item name="px_change_rate" displayname="涨幅"      tag ="2"  displaywidth ="60"></item> 
+  <item name="inflow"         displayname="净流入"    tag ="3"  displaywidth ="80"></item>     
+ </realhome>
+ <fundflowBlockStocks>
+  <item name="stock_code"     displayname="代码"      tag ="0"  displaywidth ="80"></item>
+  <item name="stock_name"     displayname="名称"      tag ="1"  displaywidth ="80"></item>
+  <item name="px_change_rate" displayname="涨幅"      tag ="2"  displaywidth ="80"></item> 
+  <item name="inflow"         displayname="净流入"    tag ="3"  displaywidth ="80"></item>      
+ </fundflowBlockStocks>
+ <customFundflow>
+  <item name="stock_code"     displayname="代码"      tag ="0"  displaywidth ="80"></item>
+  <item name="stock_name"     displayname="名称"      tag ="1"  displaywidth ="80"></item>
+  <item name="px_change_rate" displayname="涨幅"      tag ="10" displaywidth ="80"></item> 
+  <item name="inflow"         displayname="净流入"    tag ="2"  displaywidth ="80"></item>  
+  <item name="turnover_ratio" displayname="换手率"    tag ="11" displaywidth ="80"></item>       
+  <item name="turnover_ratio" displayname="ddx"       tag ="12" displaywidth ="80"></item>       
+  <item name="turnover_ratio" displayname="ddy"       tag ="13" displaywidth ="80"></item>        
+ </customFundflow>
+ <callAuction>
+  <item name="_id"            displayname="代码"      tag ="0"  displaywidth ="80"></item>
+  <item name="stock_name"     displayname="名称"      tag ="1"  displaywidth ="80"></item>
+  <item name="px_change_rate" displayname="涨幅"      tag ="2"  displaywidth ="80"></item> 
+  <item name="inflow"         displayname="净流入"    tag ="5"  displaywidth ="80"></item>  
+  <item name="turnover_ratio" displayname="ddx"       tag ="8"  displaywidth ="80"></item>       
+  <item name="turnover_ratio" displayname="ddy"       tag ="9"  displaywidth ="80"></item>        
+  <item name="reason"         displayname="AI揭秘"    tag ="21" displaywidth ="200"></item>      
+ </callAuction>
+ <homeStatic>
+  <item name="title"          displayname="标题"      tag ="2"  displaywidth ="250"></item>
+  <item name="author"         displayname="大V"      tag ="3"  displaywidth ="80"></item>
+  <item name="time"           displayname="更新时间"  tag ="8"  displaywidth ="200"></item> 
+  <item name="link"           displayname="链接"      tag ="9"  displaywidth ="100"></item>       
+ </homeStatic>
+ <bullbearindex>
+  <item name="-"              displayname=""           tag ="0"  displaywidth ="50"></item>
+  <item name="name"           displayname="大V"        tag ="1"  displaywidth ="150"></item>
+  <item name="winning_rate"   displayname="近5日胜率"  tag ="3"  displaywidth ="80"></item>
+  <item name="position"       displayname="仓位"       tag ="4"  displaywidth ="80"></item>
+  <item name="url"            displayname="链接"       tag ="5"  displaywidth ="300"></item>     
+ </bullbearindex>
+</list>
